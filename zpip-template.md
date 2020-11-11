@@ -1,10 +1,11 @@
 ---
 zpip: `<to-be-assigned>`
 title: `<ZPIP-title>`
-author: `<author(s)>`
-discussions-to: `<URL>`
 status: Draft
 type: `<Standards Track, Process, or Informational>`
+author(s): `<author(s)>`
+owner(s): `<owner(s)>`
+discussions-to: `<URL>`
 category (*only required for Standards Track*): `<Interface, Cryptography>`
 created: `<yyyy-mm-dd>`
 requires (*optional*): `<ZPIP number(s)>`
@@ -17,11 +18,9 @@ Note that a ZPIP number will be assigned by an editor. When opening a pull reque
 
 The title should be 44 characters or less.
 
-## Simple Summary
+## Abstract
 
 "If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the ZPIP.
-
-## Abstract
 
 A short (~200 word) description of the technical issue being addressed.
 
@@ -41,13 +40,13 @@ The rationale fleshes out the specification by describing what motivated the des
 
 All ZPIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The ZPIP must explain how the author proposes to deal with these incompatibilities. ZPIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
 
-## Test Cases
-
-Test cases for an implementation are mandatory for ZPIPs that are proposing cryptographic changes.
-
-## Implementation
+## Reference Implementation
 
 The implementations must be completed before any ZPIP is given status "Final", but it need not be completed for the ZPIP to be merged as a "Draft".
+
+### Test Cases
+
+Test cases for an implementation are mandatory for ZPIPs that are proposing cryptographic changes.
 
 ## Security Considerations
 
@@ -62,6 +61,7 @@ This ZPIP template, for instance, is taken and adapted from Martin Becze, Hudson
 
 All updates to a ZPIP must be accompanied by a brief and descriptive entry of the changes in the document's changelog. This, along the Git history, aims to simplify the review process of the document throughout its lifetime.
 
-## Copyright
+## License
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+*Example*
+- `CC0-1.0`
